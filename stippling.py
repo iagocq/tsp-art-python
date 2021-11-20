@@ -5,7 +5,7 @@ import sys
 cmd = sys.executable
 
 # The filename of the image you want to stipple goes here.
-ORIGINAL_IMAGE = "images/smileyface-inverted.png"
+ORIGINAL_IMAGE = "images/logo-ufla.png"
 
 # Enables saving of images.
 SAVE_IMAGE = True
@@ -29,7 +29,7 @@ THRESHOLD = 255
 FORCE = True
 
 # Display a diagram that shows each iteration of the algorithm, showing the points being arranged into their positions.
-INTERACTIVE = True
+INTERACTIVE = False
 
 # Displays the plot of the final iteration. Usually disabled if INTERACTIVE = True, since the diagram will also show the final iteration.  
 DISPLAY_FINAL_ITERATION = False
